@@ -1,0 +1,17 @@
+# # Ignore raw traffic videos
+# # Ignore raw traffic videos (large files)
+# data_video/
+
+# # Ignore all mp4 files by default
+# *.mp4
+
+# # Allow processed/demo videos
+# !output.mp4
+# !demo.mp4
+
+# YOLO output and large videos
+runs/
+data_videos/*.mp4
+*.avi
+*.mp4
+*.pt  # large model weights
